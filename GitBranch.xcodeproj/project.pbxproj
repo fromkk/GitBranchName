@@ -14,6 +14,8 @@
 		ADF997AA1DB33EF500BF5770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF997A81DB33EF500BF5770 /* LaunchScreen.storyboard */; };
 		ADF997B51DB33EF500BF5770 /* GitBranchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF997B41DB33EF500BF5770 /* GitBranchTests.swift */; };
 		ADF997C01DB33EF500BF5770 /* GitBranchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF997BF1DB33EF500BF5770 /* GitBranchUITests.swift */; };
+		ADF997D01DB3433E00BF5770 /* Branch.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADF997CF1DB3433E00BF5770 /* Branch.plist */; };
+		ADF997D21DB3456500BF5770 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF997D11DB3456500BF5770 /* Branch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		ADF997BB1DB33EF500BF5770 /* GitBranchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitBranchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF997BF1DB33EF500BF5770 /* GitBranchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitBranchUITests.swift; sourceTree = "<group>"; };
 		ADF997C11DB33EF500BF5770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF997CF1DB3433E00BF5770 /* Branch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Branch.plist; sourceTree = "<group>"; };
+		ADF997D11DB3456500BF5770 /* Branch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		ADF997931DB33EF500BF5770 = {
 			isa = PBXGroup;
 			children = (
+				ADF997CF1DB3433E00BF5770 /* Branch.plist */,
 				ADF9979E1DB33EF500BF5770 /* GitBranch */,
 				ADF997B31DB33EF500BF5770 /* GitBranchTests */,
 				ADF997BE1DB33EF500BF5770 /* GitBranchUITests */,
@@ -103,6 +108,7 @@
 				ADF997A61DB33EF500BF5770 /* Assets.xcassets */,
 				ADF997A81DB33EF500BF5770 /* LaunchScreen.storyboard */,
 				ADF997AB1DB33EF500BF5770 /* Info.plist */,
+				ADF997D11DB3456500BF5770 /* Branch.swift */,
 			);
 			path = GitBranch;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF997D01DB3433E00BF5770 /* Branch.plist in Resources */,
 				ADF997AA1DB33EF500BF5770 /* LaunchScreen.storyboard in Resources */,
 				ADF997A71DB33EF500BF5770 /* Assets.xcassets in Resources */,
 				ADF997A51DB33EF500BF5770 /* Main.storyboard in Resources */,
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF997A21DB33EF500BF5770 /* ViewController.swift in Sources */,
+				ADF997D21DB3456500BF5770 /* Branch.swift in Sources */,
 				ADF997A01DB33EF500BF5770 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

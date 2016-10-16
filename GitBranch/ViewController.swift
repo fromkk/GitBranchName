@@ -9,9 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var branchNameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.branchNameLabel.text = Branch.current
         // Do any additional setup after loading the view, typically from a nib.
     }
 
