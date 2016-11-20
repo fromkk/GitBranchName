@@ -19,9 +19,9 @@ struct Branch {
         guard let path: String = Bundle.main.path(forResource: Constants.plistFileName, ofType: "plist") else {
             return Constants.defaultBranch
         }
-        guard let plist: NSDictionary = NSDictionary(contentsOfFile: path) else {
+        guard let plist: [String: String] = NSDictionary(contentsOfFile: path) as? [String: String] else {
             return Constants.defaultBranch
         }
-        return (plist[Constants.branchNameKey] as? String) ?? Constants.defaultBranch
+        return plist[Constants.branchNameKey] ?? Constants.defaultBranch
     }
 }
